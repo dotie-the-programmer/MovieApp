@@ -1,12 +1,40 @@
-# React + Vite
+🎬 MovieApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieApp is a React-based web application that allows users to explore and search for movies. It uses the TheMovieDB API to fetch real-time data, such as movie details, posters, and ratings. Users can browse through popular movies, search by title, and view detailed information about each movie.
 
-Currently, two official plugins are available:
+🌟 Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Trending & Popular Movies: View lists of popular and trending movies.
+Movie Details: Get detailed information about movies, including the release date, rating, and overview.
+Responsive Design: Optimized for all devices, including desktops, tablets, and mobile phones.
+🛠️ Tech Stack:
 
-## Expanding the ESLint configuration
+Frontend: React.js
+API: TheMovieDB API for fetching movie data
+Styling: CSS 
+Routing: React Router for navigation between movie details and search results
+🚀 How to Run the Project:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites:
+
+Node.js and npm installed on your machine
+A valid API Key from TheMovieDB
+Installation Steps:
+
+Clone the repository:
+
+git clone https://github.com/dotie-the-programmer/MovieApp.git
+cd movieApp
+Install the dependencies:
+
+npm install
+Set up API key:
+
+Create a .env file in the root directory.
+Add your TheMovieDB API key:
+REACT_APP_API_KEY=your_api_key_here
+Run the development server:
+
+npm start
+
+🔗 API Documentation: This project uses the TheMovieDB API. You can find more details in the official API documentation: https://www.themoviedb.org/documentation/api
