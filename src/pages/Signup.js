@@ -1,10 +1,10 @@
-// src/pages/Signup.js
+
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import './Signup.css';
 
 function Signup() {
-  const navigate = useNavigate(); // initialize navigate
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
