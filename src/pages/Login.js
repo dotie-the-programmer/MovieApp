@@ -1,10 +1,10 @@
-// src/pages/Login.js
+
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // import useNavigate
-import './Login.css'; // Import the CSS file
+import { useNavigate } from 'react-router-dom'; 
+import './Login.css'; 
 
 function Login() {
-  const navigate = useNavigate(); // initialize navigate
+  const navigate = useNavigate(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,7 +13,7 @@ function Login() {
     const password = formData.get('password');
     console.log('Login submitted:', { username, password });
 
-    // Redirect to movies page after successful login
+    
     navigate('/movies/popular');
   };
 
